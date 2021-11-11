@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div class="container">
+        
+        <form user="loginForm" action="FormServlet" method="post">
+            <table>
+                <tr>
+                    <td>Please Enter login name</name>
+                    <td> <input type="text" name="user_name"> </td>
+                </tr>
+            
+                <tr>
+                    <td>Please enter password</td>
+                    <td> <input type="password" name="user_password"> </td>
+                </tr>
+            
+                <tr>
+                    <td> Please enter address</td>
+                    <td><input type="address" name="user_address"></td> 
+                </tr>
+                
+                
+                
+                
+                <tr>
+                    
+                    
+                    <td>
+                        
+                    <label for="cards ">Please select credit card type</label>    
+                    <select id="cards" name="cards">
+                        <option value="MasterCard">Master Card </option>
+                        <option value="VisaCard">Visa Card </option>
+                        <option value="AmericanExpressCard">American Express Card</option>
+                        <option value="DiscoverCard">Discover Card</option>
+                    </td>    
+                </tr>
+                <br><br>
+                        
+                <tr>
+                    <td>
+                    <label for="books">Please select favorite Books </label> 
+                    <select id="books" name="books" multiple>    
+                        <option value="HarryPotter">Harry Potter</option>
+                        <option value="Narnia">Narnia</option>
+                        <option value="NorthernCompass">Northern Compass</option>
+                        <option value="Artemis">Artemis Fowl</option>
+                        
+                    <select>    
+                    </td>
+                </tr>        
+                
+                
+                
+                
+                
+                
+                
+                <tr>
+                    <td>Please Select gender</td>
+                    <td><input type="radio" name="user_gender" value="M">Male &nbsp; &nbsp;<input type="radio" name="user_gender" value="F">Female</td>
+
+                </tr>
+                <tr>
+                    <td>please choose favorite food</td>
+                    
+                    <td><input type="checkbox" name="favorite_food" value="nl">
+                    <label for="favorite_food"> Nasi Lemak</label></td>
+                    <td><input type="checkbox" name="favorite_food" value="rc">
+                    <label for="favorite_food"> Roti Canai</label></td>
+                    <td><input type="checkbox" name="favorite_food" value="me"> 
+                    <label for="favorite_food"> Mee Goreng </label></td>
+                    
+                </tr>
+                
+                
+                
+                
+                <tr>
+                    
+                    <td>
+                        <button type="submit" name="submit" value="Submit">Submit</button>
+                        <button type="reset" value="Reset">Reset</button>
+                    </td>
+                    
+                </tr>
+            </table>
+            
+        </form>
+        
+    
+    
+    </div>
+        
+        
+    </body>
+</html>
+
